@@ -13,7 +13,6 @@
         .wishlist-active { color: #e63946; }
     </style>
 </head>
-
 <body class="bg-[#fdf8f3]">
     <!-- Navbar -->
     <nav class="bg-white shadow-md fixed w-full z-50 top-0">
@@ -39,14 +38,12 @@
             </div>
         </div>
     </nav>
-
     <!-- Hero Section -->
     <section class="pt-24 pb-12 bg-[#f5eee6] text-center">
         <h1 class="text-5xl text-[#3e3b3b] mb-4">Elegance from Pakistan,<br> Delivered with Love</h1>
         <p class="text-gray-600 max-w-xl mx-auto">Discover luxurious fabrics, timeless traditions, and modern tailoring exclusively at Aroosh Boutique, USA.</p>
         <a href="#" class="mt-6 inline-block bg-[#c59d5f] text-white px-6 py-2 rounded hover:bg-[#a47c3b]">Explore Our Collection</a>
     </section>
-
     <!-- Why Choose Aroosh -->
     <section class="container mx-auto my-12 text-center">
         <h2 class="text-4xl text-[#3e3b3b] mb-4">Why Aroosh Boutique?</h2>
@@ -69,13 +66,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Product Section (Keep your existing grid here exactly as you wrote) -->
-    <main class="container mx-auto px-4 pt-8 pb-8">
-        <h2 class="text-3xl text-center text-[#3e3b3b] mb-8">Our Collections</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="productsGrid"></div>
-    </main>
-
     <!-- Cart Sidebar & JS: You already wrote well, just copy-paste your existing code here. -->
 <script>
     function toggleMenu() {
@@ -117,7 +107,7 @@
     <main class="container mx-auto px-4 pt-20 pb-8">
         <!-- Products Grid -->
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="productsGrid">
-            < !-- Products will be dynamically added here -->
+            <!-- Products will be dynamically added here -->
         </div>
     </main>
     <!-- Cart Sidebar -->
@@ -131,6 +121,7 @@
             </div>
             <div class="p-4 overflow-y-auto h-[calc(100vh-180px)]" id="cartItems">
                 <!-- Cart items will be dynamically added here -->
+                <div class="text-center text-gray-500" id="emptyCartMessage">Your cart is empty.</div>
             </div>
             <div class="p-4 border-t">
                 <div class="flex justify-between mb-4">
